@@ -6,26 +6,17 @@ const Navbar = () => {
 
 
 <div style={{marginLeft:"300px"}}>
-  <div className=" grid grid-cols-3 rounded-2xl bg-blue-50 " style={{textAlign:"center",margin:"10px", width:"800px" ,height:"50px", paddingTop:"10px"}}>
+  <div className=" grid grid-cols-3 rounded-2xl  " style={{textAlign:"center",margin:"10px", width:"800px" ,height:"50px", paddingTop:"10px"}}>
     <div style={{marginLeft:"5px"}}>
       <h2 className=" font-bold " style={{fontSize:"20px"}}>
-        Shape
+        
       </h2>
     </div>
 
     
-    <ul className="flex justify-center gap-6">
-      <li>Service</li>
-      <li>Work</li>
-      <li>About</li>
-      <li>Blog</li>
-      <li>Contact</li>
-    </ul>
-
+    
     <div className="flex justify-end">
-      <button className="bg-green-500 rounded-xl me-4" style={{height:"30px", width:"120px"}}>
-        Start a project
-      </button>
+      
     </div>
     </div>
 
